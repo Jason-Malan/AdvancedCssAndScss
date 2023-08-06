@@ -1,0 +1,17 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "live-server": "live-server",
+    "sass-watch": "node-sass sass/main.scss css/style.css -w",
+    "start": "concurrently \"npm:live-server\" \"npm:sass-watch\""
+  },
+  "author": "Jason Malan",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "node-sass": "^9.0.0"
+  }
+}
