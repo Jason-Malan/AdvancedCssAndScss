@@ -26,6 +26,9 @@ $breakpoint argument choices:
 - tab-port
 - tab-land
 - big-desk
+
+ORDER TO APPLY MEDIA QUERIES: Base + Typography > General layout + Grid > Page layout > Components
+
 */
 @mixin respond($breakpoint) {
   // 600px
